@@ -18,7 +18,7 @@ user), GET (to fetch data for a given user), PUT (to update a user), or DELETE
 The `/posts/` endpoint will handle an HTTP request of type POST (to create a
 post for a given user), GET (to retrieve all posts for a given user), or DELETE
 (to delete a post, given its UUID). All of these methods require that the user
-already exists.
+already exist.
 
 ## Example requests
 
