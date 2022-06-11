@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"errors"
+	"fmt"
 	"log"
 	"net/http"
 	"strings"
@@ -41,6 +42,7 @@ func main() {
 		ReadTimeout:  30 * time.Second,
 	}
 
+	fmt.Println("Listening on", addr)
 	srv.ListenAndServe()
 }
 
