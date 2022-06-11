@@ -13,7 +13,7 @@ API is provided, with two endpoints: `/users/` and `/posts/`.
 
 The `/users/` endpoint will handle an HTTP request of type POST (to create a
 user), GET (to fetch data for a given user), PUT (to update a user), or DELETE
-(to delete a user).
+(to delete a user). Users are indexed by email address.
 
 The `/posts/` endpoint will handle an HTTP request of type POST (to create a
 post for a given user), GET (to retrieve all posts for a given user), or DELETE
